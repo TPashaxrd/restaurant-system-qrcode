@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* 
+! font-family: Space Grotesk, serif;
+! font-family: Roboto Condensed, serif;
+! font-family: Atkinson Hyperlegible Next serif;
+! font-family: 'Montserrat', serif;
+! font-family: 'Inter', sans-serif;
+*/
+
+body {
+    background-image: url('./images/background-restourant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 767px) {
+    body {
+        background-image: url('https://images.pexels.com/photos/914388/pexels-photo-914388.jpeg?cs=srgb&dl=pexels-igor-starkov-233202-914388.jpg&fm=jpg'); 
+    }
+}
+input {
+    user-select: none;
+}
+::selection {
+    background-color: black !important;
+    color: white;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.name-surname:hover {
+    color: white;
+}
